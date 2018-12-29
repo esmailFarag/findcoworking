@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Add Your Space</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="coworking" name="keywords">
+    <meta content="seraech for co working spaces in egypt" name="description">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS File -->
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="stylesheets/fontawesome-all.min.css" rel="stylesheet">
+    <link href="stylesheets/animate.min.css" rel="stylesheet">
+    <!-- Main Stylesheet File -->
+    <link href="stylesheets/style.css" rel="stylesheet">
+
+</head>
+
+<style>
+    .line {
+        width: auto;
+        margin: 8px;
+        padding: 0.7px;
+        background: #DFE1E6;
+    }
+    
+    @media only screen and (max-width: 678px) {
+        .bg {
+            background-size: 190%;
+        }
+    }
+</style>
+
+<body>
+    <!--==========================
+    Header
+  ============================-->
+    <header id="header" style="position: unset; background-color:#000;">
+        <div class="container">
+            <a class="navbar-brand " href="index.html">Find CoWorkingSpace</a>
+            <nav id="nav-menu-container">
+                <ul class="nav-menu" style="position: unset; color:#000;">
+                    <li class="menu-active"><a href="index.html">Home</a></li>
+                    <li><a href="Log-in-with-bottom.html">Sign in</a></li>
+                    <li><a href="sign-up-with-bottom.html">Sign up</a></li>
+                    <li class="Add-your-Space"><a href="Add_space.html">Add your Space</a></li>
+                </ul>
+            </nav>
+            <!-- #nav-menu-container -->
+        </div>
+    </header>
+    <!-- #header -->
+    <div style=" margin-top: 10px">
+        <section class="container-fluid">
+
+            <section class="row justify-content-center">
+
+                <section class="col-lg-6 col-md-6 col-ms-3 col-xs-12">
+                    <form>
+                        <div class="form-row">
+
+                            <div class="form-group col-md-12">
+                                <header class="section-header">
+                                    <h3 class="section-title">Add Your Space</h3>
+                                </header>
+                                <div class="line d-md-none d-lg-none d-xl-none"></div>
+
+                                <label for="exampleInputType">Type of property</label>
+                                <select class="form-control" id="exampleInputType" aria-describedby="Type_of_property">
+                                    <option value="Coworking">Coworking</option>
+                                    <option value="Events">Events</option>
+                                <option value="Workshops">Workshops</option>
+                                <option value="Meetings">Meetings</option>
+                                <option value="Training">Training</option>
+                                
+                            </select>
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <label for="inputFname">First Name</label>
+                                <input type="text" class="form-control" id="inputFname" name="First name" placeholder="First Name" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputLastName">Last Name</label>
+                                <input type="text" class="form-control" id="inputLastName" name="Last name" placeholder="Last Name" required>
+                            </div>
+
+
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4" aria-describedby="Email" name="Email" required placeholder="exmaple@mail.com">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputPhone4">Phone</label>
+                                <input type="text" class="form-control" id="inputPhone" placeholder="+02212345678" name="phone" required>
+                            </div>
+                        </div>
+                        <div class="form-grou">
+                            <label for="inputAddress">Address</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" name="Address" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress2">Address 2</label>
+                            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" name="Address 2:">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputCity">City</label>
+                                <input type="text" class="form-control" id="inputCity" name="City" required>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="inputState">State</label>
+                                <select id="inputState" class="form-control" name="State" required>
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                            </select>
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="inputZip">Zip</label>
+                                <input type="text" class="form-control" id="inputZip" name="Zip Code" required>
+                            </div>
+                        </div>
+                        <button style="margin-bottom: 10px;" type="submit" class="btn btn-danger btn-block">Get started</button>
+                    </form>
+
+                </section>
+
+            </section>
+        </section>
+    </div>
+    <!--==========================
+    Footer
+  ============================-->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 footer-info">
+                        <h3>Find Coworking</h3>
+                        <p>CONNECT WITH US</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>ACTIVITIES</h4>
+                        <ul>
+                            <li><a href="#">Meetings</a></li>
+                            <li><a href="#">Workshops</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Training</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>LOCATIONS</h4>
+                        <ul>
+                            <li> <a href="#">Cairo</a></li>
+                            <li> <a href="#">Giza</a></li>
+                            <li> <a href="#">alexandria</a></li>
+                            <li> <a href="#">Ismailia </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>About</h4>
+                        <ul>
+                            <li><a href="About us.html">About us</a></li>
+                            <li> <a href="ContactUs.html">Contact us</a></li>
+                            <li> <a href="index.html">How It Work</a></li>
+                            <li> <a href="About us.html">our mission</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong>Find Coworking</strong>. All Rights Reserved
+            </div>
+        </div>
+    </footer>
+    <!-- #footer -->
+
+    <!-- JavaScript Libraries -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/superfish.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <!--  Main Javascript File -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

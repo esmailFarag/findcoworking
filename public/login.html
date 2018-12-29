@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="coworking" name="keywords">
+    <meta content="seraech for co working spaces in egypt" name="description">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS File -->
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="stylesheets/fontawesome-all.min.css" rel="stylesheet">
+    <link href="stylesheets/animate.min.css" rel="stylesheet">
+    <!-- Main Stylesheet File -->
+    <link href="stylesheets/style.css" rel="stylesheet">
+    <link href="stylesheets/main.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <!--==========================
+    Header
+  ============================-->
+    <header id="header" style="position: unset; background-color:#000;">
+        <div class="container">
+            <a class="navbar-brand " href="index.html">Find CoWorkingSpace</a>
+            <nav id="nav-menu-container">
+                <ul class="nav-menu" style="position: unset; color:#000;">
+                    <li class="menu-active"><a href="index.html">Home</a></li>
+                    <li><a href="Log-in-with-bottom.html">Sign in</a></li>
+                    <li><a href="sign-up-with-bottom.html">Sign up</a></li>
+                    <li class="Add-your-Space"><a href="Add_space.html">Add your Space</a></li>
+                </ul>
+            </nav>
+            <!-- #nav-menu-container -->
+        </div>
+    </header>
+    <!-- #header -->
+
+
+    <div class="container">
+        <div class="row">
+
+
+            <div class="col-lg-12 col-md-12 col-sm-3 col-xs-12">
+                <div class="form_content">
+                    <form action="/action_page.php">
+
+
+                        <h3>Welcome back! Log in</h3>
+
+                        <div class="textbox">
+                            <label>Email</label><br>
+                            <input type="text" id="email" name="Email" placeholder="Email" value="" required>
+
+                            <p class="line">
+                            </p>
+                        </div>
+
+                        <div class="textbox">
+                            <label>Password</label><br>
+                            <input type="password" id="password" name="Password" placeholder="Password" value="" required>
+
+                            <p class="line"> </p>
+                        </div>
+
+
+
+                        <div class="checkbox_Forgot">
+                            <input type="checkbox">
+                            <small>Remember Me </small>
+                            <span class="Forgot_pass"><a href="#">Forgot Your Password?</a></span>
+                        </div>
+                        <div class="Button_login">
+                            <input type="button" class="btn " name="" onclick="return FormValidation()" value="LOG IN">
+                        </div>
+
+                        <p class="p_SignUp">Don't have an account yet? <a href="Sign-up-with-bottom.html" target="_parent">Sign up</a><br> Forgot your password? <a href="#" target="_parent">Reset password</a></p>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/superfish.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <!--  Main Javascript File -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.form_content {
+    position: absolute;
+    width: 600px;
+    left: 20%;
+    top: 15%;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding-left: 8px;
+    /*  transform: translate(0, 5%);*/
+    color: #000;
+    /*-webkit-box-shadow: 0 0 20px #ddd;
+    box-shadow: 0 0 20px #ddd;
+    background: #fff;
+    border-radius: 25px;*/
+}
+
+
+/**************************************img***********************/
+
+.Img_logo {
+    margin-left: 10%;
+    margin-top: -160px;
+}
+
+img::selection {
+    text-shadow: none;
+    background: #C82333;
+}
+
+
+/*************************************************************/
+
+.form_content h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-align: left;
+    padding: 5px 0;
+}
+
+.form_content h3::selection {
+    text-shadow: none;
+    background: #C82333;
+}
+
+.textbox {
+    width: 90%;
+    overflow: hidden;
+    font-size: 16px;
+    padding: 3px 0;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 70%;
+    padding: 5px 0px;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    outline: none;
+    color: #46485c;
+}
+
+.textbox label::selection {
+    text-shadow: none;
+    background: #C82333;
+}
+
+.line {
+    width: 80%;
+    padding: 0.5px;
+    margin-left: 0;
+    margin-right: 0;
+    background: #a3a3a3;
+}
+
+
+/*************************************txt checkbox_Forgot ***************************************/
+
+.checkbox_Forgot {
+    margin-bottom: 32px;
+}
+
+small::selection {
+    text-shadow: none;
+    background: #C82333;
+}
+
+.SmallTxt a {
+    color: #921CC4;
+}
+
+.Forgot_pass {
+    text-align: right;
+    margin-left: 25%;
+}
+
+.checkbox_Forgot a {
+    color: #ced4da;
+}
+
+.checkbox_Forgot a:hover {
+    color: darkviolet;
+}
+
+.checkbox_Forgot a::selection {
+    color: #000;
+    text-shadow: none;
+    background: #C82333;
+}
+
+
+/*****************************************txtContinuel***********************************/
+
+.txtcontinue {
+    text-align: center;
+    margin-right: 150px;
+}
+
+.txtcontinue p::selection {
+    text-shadow: none;
+    background: #C82333;
+}
+
+.continue_signup {
+    text-align: center;
+    margin-right: 200px;
+}
+
+.continue_signup::selection {
+    text-shadow: none;
+    background: #C82333;
+}
+
+
+/*****************************************social***********************************/
+
+.social {
+    display: inline-block;
+    margin-left: 90px;
+}
+
+.fa-google-plus-square,
+.fa-facebook-square {
+    color: #ccc;
+}
+
+.fa-facebook-square:hover {
+    color: #3B5998;
+}
+
+.fa-twitter:hover {
+    color: #55ACEE;
+}
+
+.fa-google-plus-square:hover {
+    color: #DD4B39;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.fa:hover {
+    background: #fff;
+}
+
+
+/*************************************Button***************************************/
+
+.btn {
+    width: 70%;
+    margin: 16px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #C82333;
+    margin-left: 1px;
+}
+
+.btn:hover {
+    background-color: #C82333;
+}
+
+
+/*****************************last two txt SignUp restert pass*************************************/
+
+.p_SignUp {
+    text-align: center;
+    margin-right: 130px;
+    ;
+}
+
+.p_SignUp a {
+    text-shadow: none;
+    color: #C82333;
+}
+
+.p_SignUp a::selection {
+    text-shadow: none;
+    color: #C82333;
+}
+
+.p_SignUp::selection {
+    text-shadow: none;
+    background: #C82333;
+}

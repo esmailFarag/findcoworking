@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+#map {
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+p {
+    font-size: 14px;
+}
+
+.row {
+    margin-right: 0;
+}
+
+
+/* ============= Generic CSS ============== */
+
+.navbar-default {
+    background-color: #ffffff;
+}
+
+.nav .pri {
+    border-right: 1px solid #d3d3d3;
+    margin: 0 5px;
+}
+
+.nav .pri>a {
+    letter-spacing: 1px;
+}
+
+.nav li ul {
+    display: none;
+    list-style: none;
+    padding: 0px;
+    position: absolute;
+    background-color: #f8f8f8;
+    width: 130px;
+}
+
+.nav li:hover>ul {
+    display: block;
+}
+
+.nav li ul li {}
+
+.nav li ul li a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px 0;
+    border-top: 1px solid #ebebeb;
+}
+
+.nav li ul li:hover>a {
+    background-color: #f82249;
+    color: #FFF;
+}
+
+.nav li a i {
+    font-size: 18px;
+    padding-left: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.cowork {
+    padding: 0 0 100px;
+}
+
+.co-space {
+    padding-top: 70px
+}
+
+.cowork .card {
+    margin-bottom: 30px;
+    box-shadow: 0px 3px 20px 0px #ececec;
+    border-radius: 10px;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    -webkit-transition: all .5s;
+    overflow: hidden;
+}
+
+.cowork .card:hover {
+    box-shadow: 1px 5px 20px 0px lightgrey;
+}
+
+.cowork .card .card-body {
+    text-align: left;
+    padding: 15px;
+}
+
+.cowork .card .card-title {
+    line-height: 1.4;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.cowork .card .card-link {
+    color: #f82249;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 8px;
+    border: 1px solid;
+    text-decoration: none;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    -webkit-transition: all .5s;
+}
+
+.cowork .card .card-link:hover {
+    color: #FFF;
+    background-color: #f82249;
+}
+
+.cowork .card .card-text {
+    padding-bottom: 5px;
+    font-size: 15px;
+    width: 80%;
+    color: #999;
+    padding: 4px;
+    display: unset;
+    border: 1px solid #f82249;
+    border-radius: 15px;
+}
+
+.text-muted,
+.cost {
+    font-size: 12px;
+}
+
+.text-muted i {
+    padding-right: 4px;
+    font-size: 16px;
+    color: #f82249;
+}
+
+.cost {
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+    color: #f82249;
+}
+
+.num-pages>ul {
+    display: -webkit-inline-box;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.num-pages li {
+    padding: 20px;
+    border: 1px solid #e1e1e1;
+    color: #333;
+    text-decoration: none;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    -webkit-transition: all .5s;
+    cursor: pointer;
+}
+
+.num-pages li:hover {
+    background-color: #f82249;
+    color: #FFF;
+    border: 1px solid #f82249;
+}
+
+.num-pages .active {
+    background-color: #f82249;
+    color: #FFF;
+    border: 1px solid #f82249;
+}

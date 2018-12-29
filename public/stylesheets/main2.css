@@ -1,0 +1,127 @@
+html {
+    font-family: MaisonNeue, sans-serif !important
+}
+
+.content1 {
+    width: 100%;
+    align-content: center;
+}
+
+.h3O2 {
+    font-size: 1.2rem;
+    margin-left: 8px;
+}
+
+p {
+    color: #8e8e8e;
+    font-size: 0.8rem;
+    margin-left: 8px;
+}
+
+a:hover {
+    color: #8e8e8e;
+}
+
+.LO_email {
+    height: 90%;
+    margin: 8px;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    background-color: #17181A;
+    border-radius: 3px;
+}
+
+.LO_Google {
+    height: 90%;
+    margin: 8px;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.imge_google {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.LO_facebook {
+    height: 90%;
+    margin: 8px;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    background-color: #4664A3;
+    border-radius: 3px;
+}
+
+.img_fac {
+    width: 20px;
+    background-color: white;
+    margin-right: 5px;
+}
+
+.LO_twitter {
+    height: 90%;
+    margin: 8px;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    background-color: #63B7F6;
+}
+
+.img_t {
+    width: 20px;
+    margin-right: 2px;
+}
+
+.LO_email:hover {
+    background-color: #C82333;
+}
+
+.LO_Google:hover {
+    border: 1px solid #a3a3a3;
+}
+
+.LO_facebook:hover {
+    background-color: #3C5A99;
+}
+
+.LO_twitter:hover {
+    background-color: #2795E4;
+}
+
+.line {
+    width: auto;
+    margin: 8px;
+    padding: 0.7px;
+    background: #DFE1E6;
+}
+
+.txt {
+    margin-top: 75px;
+}
+
+.txt span {
+    font-size: 0.9rem;
+}
+
+.txt input {
+    background-color: rgba(202, 206, 221, 0.8);
+}
+
+.Sign_up {
+    float: right;
+    border-radius: 2px;
+    padding: 0.75rem 1rem;
+    border: solid 1px #DFE1E6;
+    color: #17181A;
+    font-size: 0.85rem;
+    width: 15%;
+    line-height: 0.85rem;
+}
